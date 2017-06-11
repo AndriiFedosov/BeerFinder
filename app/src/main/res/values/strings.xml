@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">beer finder</string>
+    <string name="set_beer">Оберіть півашку</string>
+    <string name="brends">Брендові півашки</string>
+    <string-array name="brend_of_beer">
+        <item>Темненька півашка</item>
+        <item>Світлоє півло</item>
+        <item>Ельчик с британіі</item>
+        <item>Сідр яблуневий</item>
+        <item>Шайтан шмурділло</item>
+    </string-array>
+    <string name="chosen_beer">Обраний тобой шмурдяк</string>
+    <string name="black_beer">Темненька півашка</string>
+    <string name="white_beer">Світлое півло</string>
+    <string name="el_beer">Ельчик с британіі</string>
+    <string name="sidr_beer">Сідр яблуневий</string>
+    <string name="shaitan_beer">Шайтам шмурдилло</string>
+</resources>

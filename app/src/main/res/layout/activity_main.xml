@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andry.beerfinder.MainActivity">
+
+    <Spinner
+        android:id="@+id/color_of_beer"
+        android:layout_width="365dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="8dp"
+        android:entries="@array/brend_of_beer"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/setBeerButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/setBeerButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="@string/set_beer"
+        android:textAllCaps="false"
+        android:textSize="60px"
+        android:textStyle="italic"
+        android:onClick="onClickBeerFinder"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/brands"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/brands"
+        android:layout_width="290dp"
+        android:layout_height="216dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/brends"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setBeerButton"
+        tools:layout_editor_absoluteY="213dp"
+        tools:layout_editor_absoluteX="94dp" />
+
+</android.support.constraint.ConstraintLayout>
